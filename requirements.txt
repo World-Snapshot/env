@@ -55,12 +55,13 @@ tensorboard
 flash-attn
 spconv-cu120
 utils3d@git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
-# Note: Additional compiled extensions needed for SpaceControl:
-# - kaolin (install from: https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.8.0_cu128.html)
-# - nvdiffrast (clone and pip install from https://github.com/NVlabs/nvdiffrast.git)
-# - diffoctreerast (clone and pip install from https://github.com/JeffreyXiang/diffoctreerast.git)
-# - diff-gaussian-rasterization (from mip-splatting submodules)
-# - vox2seq (local extensions/vox2seq)
+
+# Compiled extensions (local repositories in env/extensions/)
+./env/extensions/nvdiffrast
+./env/extensions/diffoctreerast
+./env/extensions/mip-splatting/submodules/diff-gaussian-rasterization
+./env/extensions/vox2seq
+./env/extensions/kaolin
 
 
 
