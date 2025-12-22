@@ -1,0 +1,82 @@
+# Please update setup.py when modifying this file
+
+# WaveGen basic
+accelerate>=1.2.0
+clip@https://github.com/openai/CLIP/tarball/master#egg=clip-1.0.0
+diffusers>=0.31.0
+matplotlib>=3.9.3
+numpy==1.26.4
+packaging
+Pillow
+plotly
+scikit_learn
+scipy
+sympy
+timm>=1.0.12
+torch>=2.5.0
+torchvision>=0.20.0
+tqdm
+transformers>=4.36.0
+ipykernel
+nbformat>=4.2.0
+mayavi
+numba
+wandb
+scikit_learn
+numba
+plyfile
+sentencepiece
+imageio[ffmpeg]
+
+
+# ControlWorld
+gradio>=4.0.0
+pathlib
+plotly
+viser
+open3d
+fastapi
+uvicorn
+
+#ControlWave (SpaceControl plugin dependencies)
+torchaudio>=2.5.0
+easydict
+opencv-python-headless
+ninja
+rembg
+onnxruntime
+xatlas
+pyvista
+pymeshfix
+igraph
+lpips
+psutil
+tensorboard
+flash-attn
+spconv-cu120
+utils3d@git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
+# Note: Additional compiled extensions needed for SpaceControl:
+# - kaolin (install from: https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.8.0_cu128.html)
+# - nvdiffrast (clone and pip install from https://github.com/NVlabs/nvdiffrast.git)
+# - diffoctreerast (clone and pip install from https://github.com/JeffreyXiang/diffoctreerast.git)
+# - diff-gaussian-rasterization (from mip-splatting submodules)
+# - vox2seq (local extensions/vox2seq)
+
+
+
+# wave2pixel
+trimesh
+pyrender
+SpeechRecognition
+whisper
+bpy
+lightning[pytorch-extra]<2.6,>=2.1
+pandas==2.2.3
+pyrender
+xFormers
+pytorch-msssim
+transformers
+
+
+#jupyter
+ipywidgets
