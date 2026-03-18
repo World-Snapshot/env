@@ -27,6 +27,9 @@ numba
 plyfile
 sentencepiece
 imageio[ffmpeg]
+peft
+bitsandbytes
+optimum-quanto
 
 
 # ControlWorld
