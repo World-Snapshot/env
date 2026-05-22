@@ -78,6 +78,12 @@ lightning[pytorch-extra]<2.6,>=2.1
 pandas==2.2.3
 pyrender
 xFormers
+
+# ScoreHMR
+yacs==0.1.8
+ema-pytorch==0.7.9
+smplx==0.1.28
+chumpy==0.70
 pytorch-msssim
 transformers
 

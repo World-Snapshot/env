@@ -15,6 +15,7 @@ bpy==4.5.3
 ccimport==0.4.4
 certifi==2025.8.3
 charset-normalizer==3.4.3
+chumpy==0.70
 click==8.3.0
 coloredlogs==15.0.1
 colorlog==6.9.0
@@ -35,6 +36,7 @@ diffusers==0.35.1
 dill==0.4.0
 docstring_parser==0.17.0
 easydict==1.13
+ema-pytorch==0.7.9
 einops==0.8.1
 embreex==2.17.7.post6
 entrypoints==0.4
@@ -209,6 +211,7 @@ sentencepiece==0.2.1
 setuptools==80.8.0
 shapely==2.1.2
 six==1.17.0
+smplx==0.1.28
 sniffio==1.3.1
 spconv-cu120==2.3.6
 SpeechRecognition==3.14.3
@@ -263,6 +266,7 @@ wrapt==2.0.1
 xatlas==0.0.11
 xformers==0.0.32.post2
 xxhash==3.6.0
+yacs==0.1.8
 yarl==1.20.1
 yourdfpy==0.0.58
 zipp==3.23.0
