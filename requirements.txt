@@ -59,13 +59,6 @@ flash-attn==2.7.3
 spconv-cu120
 utils3d@git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
 
-# Compiled extensions (local repositories in env/extensions/)
-./env/extensions/nvdiffrast
-./env/extensions/diffoctreerast
-./env/extensions/mip-splatting/submodules/diff-gaussian-rasterization
-./env/extensions/vox2seq
-./env/extensions/kaolin
-
 
 
 # wave2pixel

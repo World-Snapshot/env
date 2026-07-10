@@ -3,7 +3,7 @@
 cd repo root where you can see env dir.
 
 ```bash
-conda create -n WaveGen python=3.11 -y
-conda activate WaveGen
+conda create -n WSM python=3.11 -y
+conda activate WSM
 pip install -r env/requirements.txt
 ```
