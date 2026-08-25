@@ -1,6 +1,6 @@
 # Please update setup.py when modifying this file
 
-# WaveGen basic
+# WSM_v1 basic
 accelerate>=1.2.0
 clip@https://github.com/openai/CLIP/tarball/master#egg=clip-1.0.0
 diffusers>=0.31.0
@@ -30,38 +30,6 @@ imageio[ffmpeg]
 peft
 bitsandbytes
 optimum-quanto
-
-
-# ControlWorld
-gradio>=4.0.0
-pathlib
-plotly
-viser
-open3d
-fastapi
-uvicorn
-
-#ControlWave (SpaceControl plugin dependencies)
-torchaudio>=2.5.0
-easydict
-opencv-python-headless
-ninja
-rembg
-onnxruntime
-xatlas
-pyvista
-pymeshfix
-igraph
-lpips
-psutil
-tensorboard
-flash-attn==2.7.3
-spconv-cu120
-utils3d@git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
-
-
-
-# wave2pixel
 trimesh
 pyrender
 SpeechRecognition
@@ -71,6 +39,15 @@ lightning[pytorch-extra]<2.6,>=2.1
 pandas==2.2.3
 pyrender
 xFormers
+
+# ControlWorld
+gradio>=4.0.0
+pathlib
+plotly
+viser
+open3d
+fastapi
+uvicorn
 
 # ScoreHMR
 yacs==0.1.8
