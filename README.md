@@ -5,8 +5,8 @@ This repository contains the dependency definitions for **World Snapshot Model v
 From the root of the WSMs repository, create and install the environment with:
 
 ```bash
-conda create -n WSM_v1 python=3.11 -y
-conda activate WSM_v1
+conda create -n WSM python=3.11 -y
+conda activate WSM
 pip install -r WSM_v1/env/requirements.txt
 ```
 
